@@ -34,7 +34,7 @@ const guitarra = ref({})
 
 onMounted(() => {
     guitarras.value = db
-		guitarra.value = db[8]
+		guitarra.value = db[3]
 })
 
 const agregarCarrito = (guitarra) => {
